@@ -10,7 +10,26 @@
 <body>
 
   <div id="container">
-    <input type="number" placeholder="PESO ">
+    <div id="title"> 
+      <h3>CALCULA SENSIBILIDADE</h3>
+    </div>
+
+    <div id="content">
+      <label>Mouse Antigo</label>
+      <input type="number" id="num1" placeholder="Peso em gramas ex. 98">
+
+      <label>Mouse Novo</label>
+      <input type="number" id="num2" placeholder="Peso em gramas ex. 95">
+
+      <label>Sensibilidade Antiga</label>
+      <input type="number" id="sensi" placeholder="Sensi atual ex. 0.76">
+
+      <button id="calc">Calcular</button>
+    </div>  
+
+    <div id="footer">
+      <p id="result"></p>
+    </div>
   </div>
   
   <script src="./js/script.js"></script>
